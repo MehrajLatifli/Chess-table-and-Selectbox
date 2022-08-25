@@ -67,7 +67,13 @@
 
 
         <h2>
-            <?= $_POST['car'] ?>
+            
+            <?php
+             if (isset($_POST['car'])) 
+             {
+              echo( $_POST['car']); 
+             }
+            ?>
         </h2>
 
 
